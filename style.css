@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .pokemon_card {
+    position: relative;
+    width: 300px;
+    background-color: #FBD34D; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 20px;
+  }
+  
+  .inner_border {
+    position: relative;
+    width: 270px;
+    height: 455px;
+    background-color: #61C0DD;
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  .card_header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stage {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    font-size: 12px;
+    background-color: #E2E4E9;
+    padding: 3px 8px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .stage img {
+    display: block;
+    margin-top: 5px;
+    width: 20px;
+    height: auto;
+  }
+  
+  .pokemon_name {
+    position: absolute;
+    top:-10px;
+    left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    z-index: 1;
+  }
+  
+  .hp {
+    position: absolute;
+    top: -6px;
+    right: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .evolves_from {
+    position: absolute;
+    top: 35px;
+    left: 65px;
+    font-size: 12px;
+    color: black;
+    background-color: #E2E4E9;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .pokemon_image {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .pokemon_image img {
+    width: 230px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .move {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .move strong {
+    font-size: 16px;
+  }
+  
+  .damage {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .card_info {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #DDE1E9;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .card_footer {
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+  }
+  
